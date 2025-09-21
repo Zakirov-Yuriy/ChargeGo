@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:flutter_application_2/core/utils/validators.dart';
+import 'package:ChargeGo/core/utils/validators.dart';
 
 void main() {
   group('Validators', () {

@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:flutter_application_2/core/errors/error_handler.dart';
-import 'package:flutter_application_2/core/errors/failures.dart';
+import 'package:ChargeGo/core/errors/error_handler.dart';
+import 'package:ChargeGo/core/errors/failures.dart';
 
 void main() {
   group('ErrorHandler', () {
