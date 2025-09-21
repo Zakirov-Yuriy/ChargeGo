@@ -293,7 +293,7 @@ class _PaymentScreenState extends State<PaymentScreen> {
       context: context,
       barrierDismissible: true,
       barrierLabel: 'Apple Pay',
-      barrierColor: Colors.black.withOpacity(0.55),
+      barrierColor: Colors.black.withValues(alpha: 0.55),
       transitionDuration: const Duration(milliseconds: 250),
       pageBuilder: (_, __, ___) {
         return SafeArea(

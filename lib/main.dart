@@ -60,6 +60,8 @@ class _HomePageState extends State<HomePage> {
 
     // Слушаем deep links
     DeepLinkService.stationStream.listen((station) {
+      if (!mounted) return;
+
       setState(() {
         _currentStation = station;
       });

@@ -185,19 +185,3 @@ class SuccessScreen extends StatelessWidget {
     );
   }
 }
-
-class _BatteryStub extends StatelessWidget {
-  const _BatteryStub();
-
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      width: 24,
-      height: 12,
-      decoration: BoxDecoration(
-        color: Colors.black,
-        borderRadius: BorderRadius.circular(3),
-      ),
-    );
-  }
-}
